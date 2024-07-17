@@ -1,12 +1,12 @@
 public class DiaSemana {
-    // Definición del enum fuera del método main
+    
     public enum Dia {
         Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo
     }
 
     public static void main(String[] args) {
-        // Uso del enum
-        Dia diaActual = Dia.Miercoles;  // Aquí se utiliza "Dia" en lugar de "DiaSemana"
+        
+        Dia diaActual = Dia.Miercoles;  
 
         switch(diaActual) {
             case Domingo:
